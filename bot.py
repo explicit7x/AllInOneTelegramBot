@@ -5,7 +5,7 @@ import os
 load_dotenv()
 
 API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH"))
+API_HASH = os.getenv("API_HASH")   # <-- yeh line thik hai ab
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
